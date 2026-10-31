@@ -1,0 +1,19 @@
+run_id: 20261031T234548Z-SVC-DEMO-001-427371
+contract:
+  id: SVC-DEMO-001
+  version: 1.0.0
+work_type: enhancement
+stack: python-fastapi
+summary: "Demo contract \u2014 schema privacy"
+status: ready
+unmet_requirements: []
+recommendation_plan: null
+changed_files: []
+commands_executed:
+- echo test
+evidence: {}
+criterion_to_test:
+  AC-1: meta
+  AC-2: schema_deny
+migration: none
+rollback: revert commit
